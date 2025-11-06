@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+diffusers
+transformers
+accelerate
+safetensors
+opencv-python
+Pillow
+tkinter
+opencv-python
+requests
