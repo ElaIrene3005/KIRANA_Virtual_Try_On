@@ -12,7 +12,7 @@ Virtual Try-On adalah aplikasi interaktif berbasis Python yang memungkinkan peng
 - Mendukung penyimpanan hasil try-on.
 
 ## Struktur Folder Repository
-
+```
 Virtual-Try-On/
 │
 ├── assets/                 # Folder berisi aset aplikasi
@@ -33,7 +33,7 @@ Virtual-Try-On/
 ├── pattern_to_shirt.py     # File untuk menggabungkan pola ke template kemeja
 ├── README.md               # Dokumentasi proyek
 └── .gitignore              # File Git ignore
-
+```
 
 ## Branch Struktur (Git)
 
