@@ -35,7 +35,6 @@ Virtual-Try-On/
 └── .gitignore              # File Git ignore
 
 
-
 ## Branch Struktur (Git)
 
 - `main` → Branch utama untuk versi stabil aplikasi GUI.  
