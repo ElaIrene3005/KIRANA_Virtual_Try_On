@@ -12,19 +12,28 @@ Virtual Try-On adalah aplikasi interaktif berbasis Python yang memungkinkan peng
 - Mendukung penyimpanan hasil try-on.
 
 ## Struktur Folder Repository
+
 Virtual-Try-On/
 │
-├─ assets/
-│ ├─ templates/ # Folder berisi template kemeja (kemeja_putih_1.png, kemeja_putih_2.png)
-│ └─ patterns/ # Folder berisi pola batik atau desain (1.jpg, 2.jpg, ..., 20.jpg)
+├── assets/                 # Folder berisi aset aplikasi
+│   ├── templates/          # Template kemeja
+│   │   ├── kemeja_putih_1.png
+│   │   └── kemeja_putih_2.png
+│   └── patterns/           # Pola batik atau desain kemeja
+│       ├── 1.jpg
+│       ├── 2.jpg
+│       └── ... (1–20)
 │
-├─ results/ # Folder hasil output (pattern_result.jpg, result.jpg)
+├── results/                # Folder hasil output
+│   ├── pattern_result.jpg
+│   └── result.jpg
 │
-├─ main.py # Program utama GUI dan workflow virtual try-on
-├─ vton_api.py # File untuk memanggil API Try-On Diffusion
-├─ pattern_to_shirt.py # File untuk menggabungkan pola ke template kemeja
-├─ README.md # Dokumentasi proyek
-└─ .gitignore # File Git ignore
+├── main.py                 # Program utama GUI dan workflow virtual try-on
+├── vton_api.py             # File untuk memanggil API Try-On Diffusion
+├── pattern_to_shirt.py     # File untuk menggabungkan pola ke template kemeja
+├── README.md               # Dokumentasi proyek
+└── .gitignore              # File Git ignore
+
 
 
 ## Branch Struktur (Git)
